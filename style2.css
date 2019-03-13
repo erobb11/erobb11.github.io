@@ -1,0 +1,157 @@
+body{
+	background-color: black;
+	color: black;
+	font: normal normal 100% 'Courier', serif;
+	line-height: 1.5;
+}
+
+#main_body{
+	z-index: 2;
+	//max-width: 1400px;
+	position: relative;
+	padding: 8px;
+	background-color: white;
+	width: 95%;
+	height: 95%;
+	top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 50px;
+}
+
+#top{
+	background-color: white;
+	padding: 16px;
+	position: relative;
+	//border: 3px solid green;
+	margin-bottom: 2.5%;
+	//float: left;
+	overflow: auto;
+}
+
+#bottom{
+	background-color: white;
+	padding: 16px;
+	position: relative;
+}
+
+div{
+	display: block;
+}
+
+#header{
+	background-color: #800080b8;
+	right: 0px;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	height: 100px;
+}
+
+#footer{
+	background-color: #800080b8;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	position: fixed;
+	height: 100px;
+	z-index: 1;
+}
+
+#navi{
+	position: fixed;
+	white-space: nowrap;
+	height: auto;
+	right: 0px;
+	right: 5%;
+	left: 5%;
+	padding-top: 0.75%;
+	text-align: center;
+	display: block;
+}
+
+.navi_link{
+	color: white;
+	text-decoration: none;
+	margin: 2.5%;
+	font: bold normal 150% 'Arial', sans-serif;
+	transition: border 0.5s, box-shadow 0.5s;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div a:hover{
+	border: 2px solid #e7e7e7;
+	box-shadow: 0 4px 8px 0 rgba(255, 0, 255, 0.2), 0 6px 20px 0 rgba(255, 0, 255, 0.19);
+	//border-radius: 25%;
+	//background-color: black;
+}
+
+#photo_container{
+	position: absolute;
+	//background-color: gray;
+	width: 20%;
+	height: 90%;
+	float: left;
+}
+
+#my_photo{
+	border-radius:25%;
+	//border: 3px solid black;
+	height: 100%;
+}
+
+#bio{
+	position: relative;
+	//background-color: #424242;
+	width: 80%;
+	float: right;
+	top: 0px;
+	text-align: center;
+	height: 90%;
+}
+
+h1, h2, h3{
+	text-align: center;
+	font-family: 'Calibri', sans-serif;
+}
+
+.left{
+	text-align: left;
+	left: 0px;
+	top: 0px;
+}
+
+.right{
+	text-align: right;
+	white-space: nowrap;
+}
+
+table{
+	width: 100%;
+}
+
+#resume_body{
+	position: relative;
+	width: 60%;
+	background-color: #f5f3dc;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5%;
+}
+
+.line{
+	border-bottom: 1px solid black;
+}
+
+.italics{
+	font-style: italic;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+ul{
+	list-style-type: none;
+}
