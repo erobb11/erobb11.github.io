@@ -17,18 +17,21 @@
 		</div>
 		<div id=main_body>
 			<div id=projects>
-				<table>
-					<tr>
-						<td><img src="electrode_location_07052018.png" onclick="openModal();currentSlide(1)" class="hover-shadow"><td>
-					</tr>
-					<tr>
-						<td>The Game of Life</td>
-					</tr>
-					<tr>
-						<td>Minesweeper</td>
-						<td>part2</td>
-					</tr>
-				</table>
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
 				<!-- The Modal/Lightbox -->
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
