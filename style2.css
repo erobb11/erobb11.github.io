@@ -155,3 +155,11 @@ table{
 ul{
 	list-style-type: none;
 }
+
+#resume_link{
+	text-decoration: none;
+}
+
+#resume_link a:hover{
+	text-decoration: underline;
+}
