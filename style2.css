@@ -156,10 +156,10 @@ ul{
 	list-style-type: none;
 }
 
-#resume_link{
+.resume_link{
 	text-decoration: none;
 }
 
-#resume_link a:hover{
+.resume_link a:hover{
 	text-decoration: underline;
 }
