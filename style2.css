@@ -82,7 +82,7 @@ div{
 
 div a:hover{
 	border: 2px solid #e7e7e7;
-	box-shadow: 0 4px 8px 0 rgba(255, 0, 255, 0.2), 0 6px 20px 0 rgba(255, 0, 255, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	//border-radius: 25%;
 	//background-color: black;
 }
