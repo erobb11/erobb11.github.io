@@ -227,6 +227,8 @@ ul{
 
 img.hover-shadow {
   transition: 0.3s;
+  height: 50%;
+  width: 50%;
 }
 
 .hover-shadow:hover {
