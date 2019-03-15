@@ -218,12 +218,6 @@ ul{
   cursor: pointer;
 }
 
-img {
-  margin-bottom: -4px;
-  width: 50%;
-  height: 50%;
-}
-
 .caption-container {
   text-align: center;
   background-color: black;
