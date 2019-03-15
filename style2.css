@@ -158,6 +158,7 @@ ul{
 
 .resume_link{
 	text-decoration: none;
+	color: black;
 }
 
 .resume_link a:hover{
