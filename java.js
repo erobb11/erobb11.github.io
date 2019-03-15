@@ -43,6 +43,7 @@ xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
     document.getElementById("news").innerHTML = news.news;
+      console.log("Done");
   }
 };
 xmlhttp.open("GET", "news.json", true);
