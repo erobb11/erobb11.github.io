@@ -18,7 +18,7 @@ function myFunction(arr) {
         arr[i].display + '</a><br>';
     }
     document.getElementById("id01").innerHTML = out;
-}*/
+}
 
 function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
@@ -36,4 +36,14 @@ function readTextFile(file, callback) {
 readTextFile("news.json", function(text){
     var data = JSON.parse(text);
     console.log(data);
-});
+});*/
+
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    document.getElementById("news").innerHTML = news.news;
+  }
+};
+xmlhttp.open("GET", "news.json", true);
+xmlhttp.send();
