@@ -1,3 +1,5 @@
-"news":	{
-		"news": ["Hello!","Goodbye!"]
+{"news":{
+		"news1":"Hello!",
+		"news2":"Goodbye!"
 	}
+}
