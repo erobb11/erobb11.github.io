@@ -41,7 +41,7 @@ readTextFile("news.json", function(text){
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-    var myObj = JSON.parse(this.responseText);
+    var news = JSON.parse(this.responseText);
     document.getElementById("news").innerHTML = news.news;
       console.log("Done");
   }
