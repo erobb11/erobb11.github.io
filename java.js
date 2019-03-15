@@ -42,8 +42,8 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var news = JSON.parse(this.responseText);
-    document.getElementById("news").innerHTML = news.news(1);
-      console.log("Done");
+    document.getElementById("news").innerHTML = news.news[1];
+      console.log("Done2");
   }
 };
 xmlhttp.open("GET", "news.json", true);
